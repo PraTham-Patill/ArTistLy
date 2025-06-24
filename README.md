@@ -16,33 +16,6 @@ ArTistLy is a comprehensive performing artist booking platform designed to conne
 - **Icons**: Lucide React
 - **Deployment**: Vercel
 
-## 📁 Project Structure
-
-\`\`\`
-artistly-platform/
-├── app/                          # Next.js App Router
-│   ├── layout.tsx               # Root layout with theme provider
-│   ├── page.tsx                 # Homepage
-│   ├── globals.css              # Global styles
-│   ├── artists/                 # Artist listing page
-│   │   ├── page.tsx
-│   │   └── loading.tsx
-│   ├── onboarding/              # Artist onboarding form
-│   │   └── page.tsx
-│   └── dashboard/               # Manager dashboard
-│       ├── page.tsx
-│       └── loading.tsx
-├── components/                   # Reusable components
-│   ├── ui/                      # ShadCN UI components
-│   ├── navigation.tsx           # Main navigation
-│   └── theme-provider.tsx       # Theme context provider
-├── lib/                         # Utilities and data
-│   ├── data.ts                  # Mock data and types
-│   └── utils.ts                 # Utility functions
-├── hooks/                       # Custom hooks
-│   └── use-toast.ts            # Toast notification hook
-└── tailwind.config.ts          # Tailwind configuration
-\`\`\`
 
 ## 🎯 Key Features
 
@@ -135,18 +108,13 @@ cd artistly-platform
 # Install dependencies
 npm install
 
-# Run development server
+# Start dev server
 npm run dev
-\`\`\`
 
-### Build for Production
-\`\`\`bash
-# Build the application
+# Build for production
 npm run build
-
-# Start production server
 npm start
-\`\`\`
+
 
 ## 🚀 Deployment to Vercel
 
@@ -268,10 +236,5 @@ The application is optimized for Vercel deployment:
 - Mobile application
 - Multi-language support
 
-## 📝 License
-
-This project is created for demonstration purposes as part of a frontend development assessment.
-
----
 
 **ArTistLy** - Connecting talent with opportunity, one performance at a time. 🎭✨
